@@ -1,5 +1,5 @@
 {
-  "proxy":"https://birthday-reminder-app-ty3n.onrender.com/api/user/",
+  "proxy":"https://birthday-reminder-app-ty3n.onrender.com/",
   "name": "remainder",
   "version": "0.1.0",
   "private": true,
