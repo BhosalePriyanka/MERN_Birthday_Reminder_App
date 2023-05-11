@@ -14,7 +14,8 @@ function Main(){
 	
 
 	const dataFetch = async() =>{ 
-		const response = await fetch('https://birthday-reminder-app-ty3n.onrender.com/api/user/')
+		
+		const response = await fetch('api/user/')
 		const resData = await response.json()
 		console.log(resData)
 		//setPeople(resData)
