@@ -52,7 +52,7 @@ function Addform() {
   return (
     <>
     
-    <Form className='w-50 mx-auto border shadow p-5' style={{backgroundColor:'black'}}>
+    <Form className='w-50 mx-auto border shadow p-5' style={{backgroundColor:'black', color:"white"}}>
         <Form.Label>Name</Form.Label>
         <Form.Control type="text" name="name" value={input.name} onChange={handelChange} 
         className = {emptyField && emptyField.includes('name') ? "border border-danger" :''} 
