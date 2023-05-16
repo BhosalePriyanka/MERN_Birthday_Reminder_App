@@ -13,6 +13,7 @@ app.get('/api',(req,res)=>{
 })
 
 app.use('/api/user',userRoute)
+
 mongoose.connect(process.env.MONGO_URL)
 .then(()=>{
     app.listen(process.env.PORT,()=>{
