@@ -19,7 +19,7 @@ function Addform() {
     }
     const handelSubmit= async()=>{
      
-      const response =  await fetch('api/user/',{
+      const response =  await fetch('https://birthday-reminder-app-ty3n.onrender.com/api/user/',{
       method:"POST",
       body:JSON.stringify(input),
       headers: {
