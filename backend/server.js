@@ -3,10 +3,11 @@ const mongoose = require('mongoose')
 const app = express()
 const userRoute = require('./router/appRouter')
 require('dotenv').config()
+const cors = require('cors')
 
 //middleware
 app.use(express.json()) //all request passed to req 
-
+app.use(cors())
 
 app.get('/api',(req,res)=>{
     res.json({message:"Hello Their!"})
